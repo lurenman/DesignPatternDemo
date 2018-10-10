@@ -1,0 +1,21 @@
+package com.example.dell.designpatterndemo.templatemethod;
+
+/**
+ * 创建日期：2018/8/8
+ * 作者:baiyang
+ */
+public class HRWorker extends Worker
+{
+
+    public HRWorker(String name)
+    {
+        super(name);
+    }
+
+    @Override
+    public void work()
+    {
+        System.out.println(name + "看简历-打电话-接电话");
+    }
+
+}
